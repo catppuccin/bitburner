@@ -6,32 +6,32 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/bitburner/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/bitburner?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/bitburner/issues"><img src="https://img.shields.io/github/issues/catppuccin/bitburner?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/bitburner/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/bitburner?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/reniivali/bitburner/stargazers"><img src="https://img.shields.io/github/stars/reniivali/bitburner?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/reniivali/bitburner/issues"><img src="https://img.shields.io/github/issues/reniivali/bitburner?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/reniivali/bitburner/contributors"><img src="https://img.shields.io/github/contributors/reniivali/bitburner?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/reniivali/bitburner/main/assets/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/reniivali/bitburner/master/assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/reniivali/bitburner/main/assets/latte.webp"/>
+<img src="https://raw.githubusercontent.com/reniivali/bitburner/master/assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/reniivali/bitburner/main/assets/frappe.webp"/>
+<img src="https://raw.githubusercontent.com/reniivali/bitburner/master/assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/reniivali/bitburner/main/assets/macchiato.webp"/>
+<img src="https://raw.githubusercontent.com/reniivali/bitburner/master/assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/reniivali/bitburner/main/assets/mocha.webp"/>
+<img src="https://raw.githubusercontent.com/reniivali/bitburner/master/assets/mocha.webp"/>
 </details>
 
 ## Usage
