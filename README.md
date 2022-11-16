@@ -38,8 +38,8 @@
 
 1. Open the *Options* panel
 2. Select "Theme Editor"
-3. Choose your *flavour*.
-4. Copy the contents of *flavour*.json into the "import / export theme" section of the theme editor.
+3. Choose your *color* and *flavour*.
+4. Copy the contents of *flavour*.json in the *color* folder into the "import / export theme" section of the theme editor.
 
 ## 💝 Thanks to
 
