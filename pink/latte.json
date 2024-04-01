@@ -1,7 +1,9 @@
+
+
 {
   "primarylight": "#ea76cb",
   "primary": "#ea76cb",
-  "primarydark": "#8839ef",
+  "primarydark": "#ea76cb",
   "successlight": "#40a02b",
   "success": "#40a02b",
   "successdark": "#40a02b",
