@@ -6,8 +6,8 @@ whiskers:
     - accent
   filename: "{{accent}}/{{flavor.identifier}}.json"
 ---
-{% set accent = flavor.colors[accent] %}
-{% set palette = flavor.colors %}
+{%- set accent = flavor.colors[accent] -%}
+{%- set palette = flavor.colors -%}
 {
   "primarylight": "#{{ accent.hex }}",
   "primary": "#{{ accent.hex }}",
