@@ -36,10 +36,9 @@
 
 ## Usage
 
-1. Open the *Options* panel
-2. Select "Theme Editor"
-3. Choose your *color* and *flavour*.
-4. Copy the contents of *flavour*.json in the *color* folder into the "import / export theme" section of the theme editor.
+1. Open the **Options** > **Theme Editor**.
+2. Choose your flavor and accent combination from the [`themes/` directory](./themes/).
+3. Copy the contents of your chosen combination into the "import / export theme" section of the theme editor.
 
 ## 💝 Thanks to
 
