@@ -1,46 +1,44 @@
 ---
 whiskers:
-  version: "2.2.0"
+  version: 2.5.1
   matrix:
     - flavor
     - accent
   filename: "themes/{{ flavor.identifier }}/{{ accent }}.json"
+  hex_format: "#{{r}}{{g}}{{b}}"
 ---
-
-{%- set palette = flavor.colors -%}
-
 {
-  "primarylight": "#{{ palette[accent].hex }}",
-  "primary": "#{{ palette[accent].hex }}",
-  "primarydark": "#{{ palette[accent].hex }}",
-  "successlight": "#{{ green.hex }}",
-  "success": "#{{ green.hex }}",
-  "successdark": "#{{ green.hex }}",
-  "errorlight": "#{{ maroon.hex }}",
-  "error": "#{{ red.hex }}",
-  "errordark": "#{{ red.hex }}",
-  "secondarylight": "#{{ overlay2.hex }}",
-  "secondary": "#{{ overlay1.hex }}",
-  "secondarydark": "#{{ overlay0.hex }}",
-  "warninglight": "#{{ yellow.hex }}",
-  "warning": "#{{ yellow.hex }}",
-  "warningdark": "#{{ yellow.hex }}",
-  "infolight": "#{{ blue.hex }}",
-  "info": "#{{ blue.hex }}",
-  "infodark": "#{{ blue.hex }}",
-  "welllight": "#{{ surface1.hex }}",
-  "well": "#{{ surface0.hex }}",
-  "white": "#{{ text.hex }}",
-  "black": "#{{ crust.hex }}",
-  "hp": "#{{ red.hex }}",
-  "money": "#{{ yellow.hex }}",
-  "hack": "#{{ green.hex }}",
-  "combat": "#{{ subtext0.hex }}",
-  "cha": "#{{ mauve.hex }}",
-  "int": "#{{ blue.hex }}",
-  "rep": "#{{ subtext1.hex }}",
-  "disabled": "#{{ maroon.hex }}",
-  "backgroundprimary": "#{{ base.hex }}",
-  "backgroundsecondary": "#{{ mantle.hex}}",
-  "button": "#{{ surface0.hex }}"
+  "primarylight": "{{ flavor.colors[accent].hex }}",
+  "primary": "{{ flavor.colors[accent].hex }}",
+  "primarydark": "{{ flavor.colors[accent].hex }}",
+  "successlight": "{{ green.hex }}",
+  "success": "{{ green.hex }}",
+  "successdark": "{{ green.hex }}",
+  "errorlight": "{{ maroon.hex }}",
+  "error": "{{ red.hex }}",
+  "errordark": "{{ red.hex }}",
+  "secondarylight": "{{ overlay2.hex }}",
+  "secondary": "{{ overlay1.hex }}",
+  "secondarydark": "{{ overlay0.hex }}",
+  "warninglight": "{{ yellow.hex }}",
+  "warning": "{{ yellow.hex }}",
+  "warningdark": "{{ yellow.hex }}",
+  "infolight": "{{ blue.hex }}",
+  "info": "{{ blue.hex }}",
+  "infodark": "{{ blue.hex }}",
+  "welllight": "{{ surface1.hex }}",
+  "well": "{{ surface0.hex }}",
+  "white": "{{ text.hex }}",
+  "black": "{{ crust.hex }}",
+  "hp": "{{ red.hex }}",
+  "money": "{{ yellow.hex }}",
+  "hack": "{{ green.hex }}",
+  "combat": "{{ subtext0.hex }}",
+  "cha": "{{ mauve.hex }}",
+  "int": "{{ blue.hex }}",
+  "rep": "{{ subtext1.hex }}",
+  "disabled": "{{ maroon.hex }}",
+  "backgroundprimary": "{{ base.hex }}",
+  "backgroundsecondary": "{{ mantle.hex}}",
+  "button": "{{ surface0.hex }}"
 }
